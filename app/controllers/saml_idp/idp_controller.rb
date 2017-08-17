@@ -7,7 +7,7 @@ module SamlIdp
 
     protect_from_forgery
 
-    before_filter :validate_saml_request
+    before_action :validate_saml_request
 
     def new
       render :template => "saml_idp/idp/new"
