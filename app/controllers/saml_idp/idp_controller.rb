@@ -3,7 +3,7 @@ module SamlIdp
   class IdpController < ActionController::Base
     include SamlIdp::Controller
 
-    unloadable
+    #unloadable
 
     protect_from_forgery
 
