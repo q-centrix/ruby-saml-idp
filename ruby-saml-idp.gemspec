@@ -27,7 +27,8 @@ Gem::Specification.new do |s|
   s.add_development_dependency("pry", "~> 0.10")
   s.add_development_dependency("rspec", "~> 3.0")
   s.add_development_dependency("ruby-saml", "~> 0.8")
-  s.add_development_dependency("rails", "~> 7.2")
-  s.add_development_dependency("capybara", "~> 2.4.1")
+  s.add_development_dependency("rexml")
+  s.add_development_dependency("rails", "~> 8.0")
+  s.add_development_dependency("capybara", "~> 3.40")
 end
 
